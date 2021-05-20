@@ -1,0 +1,43 @@
+:root{
+   --primary-color: #537791;
+  --secondary-color: #f7f6e7;
+  --accent-color: #9b9b9b;
+  --background-color: #e7e6e1;
+  --primary-font: "orbitron", sans-serif;
+  --secondary-font: "Poppins". sans-serif;
+}
+body{
+  background-color: var(--background-color);
+}
+h1{
+  font-family: var(--primary-font);
+  font-size: 70px;
+  color: var(--primary-color);
+}
+
+a {
+  font-family: var(--primary-font);
+}
+.hero{
+  background-color: var(--secondary-color);
+  border-radius: 2px;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h2{ 
+  font-family: var(--secondary-font);
+  font-weight: lighter;
+  font-size: 25px;
+  color: var(--accent-color);
+
+}
+.btn-branding{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.4); 
+}
