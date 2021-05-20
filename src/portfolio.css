@@ -14,10 +14,15 @@ h1{
   font-size: 70px;
   color: var(--primary-color);
 }
-
+h2{
+  text-align: center;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
 a {
   font-family: var(--primary-font);
 }
+
 .hero{
   background-color: var(--secondary-color);
   border-radius: 2px;
@@ -28,7 +33,7 @@ a {
 .hero h2{ 
   font-family: var(--secondary-font);
   font-weight: lighter;
-  font-size: 25px;
+  font-size: 30px;
   color: var(--accent-color);
 
 }
@@ -40,4 +45,50 @@ a {
   line-height: 27px;
   padding: 15px 30px;
   box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.4); 
+}
+
+.intro{
+  padding: 15px;
+  font-family: var(--secondary-font);
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 30px;
+  color: var(--accent-color);
+  line-height: 35px;
+
+}
+
+.featuredProject{
+  font-size: 40px;
+  margin: 10px;
+   padding: 10px;
+}
+.container{
+  background-color: var(--primary-color);
+  padding: 50px;
+  border-radius: 4px;
+}
+.weatherApp{
+  font-family: var(--primary-font);
+  text-align: center;
+}
+.featuredAbout{
+  text-align: center;
+  font-family: var(--secondary-font);
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  margin:20px;
+  padding: 15px;
+  color:var(--secondary-color);
+  box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.4); 
+}
+.image{
+  margin:20px;
+}
+.portfolio{
+  margin: 15px;
+  text-align: center;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
 }
