@@ -20,6 +20,7 @@ h2{
   font-family: var(--primary-font);
   color: var(--primary-color);
 }
+
 a {
   font-family: var(--primary-font);
 }
@@ -63,12 +64,12 @@ a {
 .featuredProject{
   font-size: 40px;
   margin: 10px;
-   padding: 10px;
+  padding: 10px;
 }
 .container{
   background-color: var(--primary-color);
-  padding: 50px;
   border-radius: 4px;
+  padding: 20px;
 }
 .weatherApp{
   font-family: var(--primary-font);
@@ -101,4 +102,43 @@ a {
 }
 .bi-github{
   color: var(--primary-color);
+}
+.aboutLine{
+  font-family: var(--secondary-font);
+  color: var(--accent-color);
+  text-align: center;
+  font-weight: lighter;
+}
+.aboutPage{  
+  background-color: var(--secondary-color);
+  border-radius: 2px;
+  text-align: center;
+  padding: 100px 20px;
+
+}
+
+.aboutMe{
+  font-size: 25px;
+  text-align: center;
+  font-family: var(--secondary-font);
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  margin:20px;
+  padding: 20px;
+  color:var(--secondary-color);
+  box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.4); 
+}
+
+.contactMe{
+  font-family: var(--secondary-font);
+  text-align: center;
+  font-size: 20px;
+  color: var(--accent-color);
+}
+.email{
+  color:var(--primary-color);
+}
+.img-fluid{
+  max-width: 100%;
+  height: auto;
 }
