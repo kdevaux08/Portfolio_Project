@@ -96,14 +96,6 @@ ul{
   color: var(--primary-color);
 }
 
-.code{
-  color:var(--accent-color);
-  font-family: var(--secondary-font);
-  text-align: center;
-}
-.bi-github{
-  color: var(--primary-color);
-}
 .content-page{  
   background-color: var(--secondary-color);
   border-radius: 2px;
@@ -150,4 +142,13 @@ ul{
 .portfolio h3{
   color: var(--accent-color);
   font-weight: bold;
+}
+footer {
+  color:var(--accent-color);
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+footer i{
+  color: var(--primary-color);
+  font-size: 28px;
 }
