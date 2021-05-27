@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kayla Devorak's Front End Developer Portfolio page with project content."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,7 +34,7 @@
       rel="stylesheet"
     />
     <link href="/src/portfolio.css" type="text/css" rel="stylesheet" />
-    <title>KD Portfolio Project</title>
+    <title>Portfolio - Kayla Devorak - Junior Front End Developer</title>
   </head>
   <body>
     <nav
@@ -53,31 +57,33 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a
-              class="nav-link active"
+              class="nav-link"
               aria-current="page"
               href="/index.html"
-              title="Homepage Link"
+              title="Homepage"
               style="color: #537791"
               >Home</a
             >
             <a
               class="nav-link"
               href="/about.html"
-              title="About Me Link"
+              title="About Me"
               style="color: #537791"
               >About</a
             >
             <a
-              class="nav-link"
-              href="#"
-              alt="Projects Link"
+              class="nav-link active"
+              href="/portfolio.html"
+              title="KD Porfolio"
+              alt="Portfolio"
               style="color: #537791"
               >Portfolio</a
             >
             <a
               class="nav-link"
-              href="/about.html#contact"
-              alt="Contact Me Link"
+              href="/index.html#contact"
+              title="Contact Link"
+              alt="Contact"
               style="color: #537791"
               >Contact</a
             >
@@ -92,17 +98,19 @@
     <div class="portfolio">
       <h2>Check out my work!</h2>
 
-      <div class="container">
+      <div class="container mt-5">
         <div class="row">
           <div class="col-md-6">
             <h3>Landing Page</h3>
             <img
               src="/images/landing-page.png"
               class="img-fluid rounded shadow"
+              alt="Landing Page Image"
             />
             <a
               href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/253/789/original/Final_Project_1.html?1613946360"
               class="btn btn-branding mt-3"
+              title="Landing Page Link"
               >View</a
             >
           </div>
@@ -111,10 +119,12 @@
             <img
               src="/images/weather-app.png"
               class="img-fluid rounded shadow"
+              alt="Weather App Image"
             />
             <a
               href="https://gracious-swirles-8a0d68.netlify.app/"
               class="btn btn-branding mt-3"
+              title="Weather App Link"
               >View</a
             >
           </div>
@@ -124,8 +134,9 @@
     <h2 class="coming-soon m-5">More projects coming soon!</h2>
     <footer>
       <div class="code mt-5">
-        <h5>
-          Developed and Coded by Kayla Devorak
+        <div class="code">
+        <h6>
+          Developed and coded by Kayla Devorak, available on GitHub.
           <div class="icons d-md-inline-flex mt-2">
             <div class="p-2">
               <a
@@ -142,12 +153,12 @@
               ></a>
             </div>
             <div class="p-2">
-              <a href="mailto:kayla.devorak@gmail.com" class="email"
+              <a href="mailto:kayla.devorak@gmail.com" title="email"
                 ><i class="bi bi-envelope-fill"></i>
               </a>
             </div>
           </div>
-        </h5>
+        </h6>
       </div>
     </footer>
   </body>

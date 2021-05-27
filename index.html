@@ -10,6 +10,10 @@
       integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
       crossorigin="anonymous"
     />
+    <meta
+      name="description"
+      content="Kayla Devorak is a Junior Front-End Developer based in Minneapolis, MN and specializes in Front-End Languages."
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
@@ -30,7 +34,7 @@
       rel="stylesheet"
     />
     <link href="/src/portfolio.css" type="text/css" rel="stylesheet" />
-    <title>KD Portfolio Project</title>
+    <title>Junior Front End Developer -- Kayla Devorak</title>
   </head>
   <body>
     <nav
@@ -56,28 +60,30 @@
               class="nav-link active"
               aria-current="page"
               href="/index.html"
-              title="Homepage Link"
+              title="Homepage"
               style="color: #537791"
               >Home</a
             >
             <a
               class="nav-link"
               href="/about.html"
-              title="About Me Link"
+              title="About Me"
               style="color: #537791"
               >About</a
             >
             <a
               class="nav-link"
               href="/portfolio.html"
-              alt="Projects Link"
+              title="KD Porfolio"
+              alt="Portfolio"
               style="color: #537791"
               >Portfolio</a
             >
             <a
               class="nav-link"
-              href="#"
-              alt="Contact Me Link"
+              href="/index.html#contact"
+              title="Contact Link"
+              alt="Contact"
               style="color: #537791"
               >Contact</a
             >
@@ -89,7 +95,9 @@
       <h1>Kayla Devorak</h1>
       <h2 class="mb-5">Front End Developer - Minneapolis, MN</h2>
       <div class="inquries">
-        <a href="/about.html#contact" class="btn btn-branding">Inquiries</a>
+        <a href="/about.html#contact" title="contact" class="btn btn-branding"
+          >Inquiries</a
+        >
       </div>
     </div>
     <div class="intro">
@@ -115,6 +123,7 @@
             </p>
             <a
               href="https://gracious-swirles-8a0d68.netlify.app/"
+              title="Weather App Link"
               class="btn btn-branding"
               >View App</a
             >
@@ -132,12 +141,17 @@
     <div class="portfolio">
       <h3>To view the rest of my work, check out my Portfolio!</h3>
       <br />
-      <a href="/portfolio.html" class="btn btn-branding mb-5">Portfolio </a>
+      <a
+        href="/portfolio.html"
+        title="portfolio link"
+        class="btn btn-branding mb-5"
+        >Portfolio
+      </a>
     </div>
     <footer>
       <div class="code mt-5">
-        <h5>
-          Developed and Coded by Kayla Devorak
+        <h6>
+          Developed and coded by Kayla Devorak, available on GitHub.
           <div class="icons d-md-inline-flex mt-2">
             <div class="p-2">
               <a
@@ -154,12 +168,12 @@
               ></a>
             </div>
             <div class="p-2">
-              <a href="mailto:kayla.devorak@gmail.com" class="email"
+              <a href="mailto:kayla.devorak@gmail.com" title="email"
                 ><i class="bi bi-envelope-fill"></i>
               </a>
             </div>
           </div>
-        </h5>
+        </h6>
       </div>
     </footer>
   </body>
