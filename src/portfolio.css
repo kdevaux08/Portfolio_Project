@@ -24,6 +24,11 @@ h2{
 a {
   font-family: var(--primary-font);
 }
+ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
 
 .hero{
   background-color: var(--secondary-color);
@@ -66,11 +71,7 @@ a {
   margin: 10px;
   padding: 10px;
 }
-.container{
-  background-color: var(--primary-color);
-  border-radius: 4px;
-  padding: 20px;
-}
+
 .weatherApp{
   font-family: var(--primary-font);
   text-align: center;
@@ -103,13 +104,7 @@ a {
 .bi-github{
   color: var(--primary-color);
 }
-.aboutLine{
-  font-family: var(--secondary-font);
-  color: var(--accent-color);
-  text-align: center;
-  font-weight: lighter;
-}
-.aboutPage{  
+.content-page{  
   background-color: var(--secondary-color);
   border-radius: 2px;
   text-align: center;
@@ -117,7 +112,14 @@ a {
 
 }
 
-.aboutMe{
+.about-intro{
+  font-family: var(--secondary-font);
+  color: var(--accent-color);
+  text-align: center;
+  font-weight: lighter;
+}
+
+.content{
   font-size: 25px;
   text-align: center;
   font-family: var(--secondary-font);
@@ -141,4 +143,11 @@ a {
 .img-fluid{
   max-width: 100%;
   height: auto;
+}
+.portfolio h2{
+  font-size: 40px;
+}
+.portfolio h3{
+  color: var(--accent-color);
+  font-weight: bold;
 }
